@@ -1,0 +1,4 @@
+#Masquer node_modules
+node_modules/
+#Masquer log files
+*.log
