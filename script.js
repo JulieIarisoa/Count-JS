@@ -1,24 +1,24 @@
-let count = 0;
+export let count = 0;
 
 //Function to update the count value in the HTML
-function updateCount(){
+export function updateCount(){
     document.getElementById("count").innerText = count;
 }
 
 //Function to add 1 to count when + button is clicked
-function increment(){
+export function increment(){
     count++;
     updateCount();
 }
 
 //function to substract 1 from count when - button is clicked
-function decrement(){
+export function decrement(){
     count--;
     updateCount();
 }
 
 //Function to make count 0 when Clear button is clicked
-function reset(){
+export function reset(){
     count = 0;
     updateCount();
 }
